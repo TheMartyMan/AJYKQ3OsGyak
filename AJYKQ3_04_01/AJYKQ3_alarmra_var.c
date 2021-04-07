@@ -9,7 +9,7 @@ void semmi();
 
 int main(){
 
-    unsigned sec = 1;
+    unsigned sec = 5;
     signal(SIGALRM, semmi);
     alarm(sec);
 
@@ -17,7 +17,7 @@ int main(){
     printf("%d varok.\n",1);
     pause();
 
-    printf("Megerkezett az alaram.\n");
+    printf("Megerkezett az alarm.\n");
 
  return 0;
 }
