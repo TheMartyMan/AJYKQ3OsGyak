@@ -28,5 +28,5 @@ int main()
             close(fd[1]);
         }
         
-        return 0
+        return 0;
 }
