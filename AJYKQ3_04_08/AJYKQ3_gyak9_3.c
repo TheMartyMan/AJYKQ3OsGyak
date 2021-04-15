@@ -27,7 +27,7 @@ int main(int argc, char **argv)
     return 0;
 }
 
-void alarmkezelo(int sis)
+void alarmkezelo(int sig)
 {
     printf("AJYKQ3\n Mostantol nem fogok blokkolodni!\n");
     exit(1);
