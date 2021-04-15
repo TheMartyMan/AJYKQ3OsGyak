@@ -26,5 +26,5 @@ int main(void)
 void terminal(int sig){
 
     signal(sig, SIG_IGN);
-    printf("Jel: %d\n", sis);
+    printf("Jel: %d\n", sig);
 }
